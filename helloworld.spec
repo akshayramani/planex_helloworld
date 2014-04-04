@@ -11,7 +11,7 @@ Source0: https://github.com/akshayramani/planex_helloworld/archive/v%{version}.t
 Simple package for planex
 
 %prep
-%setup -q -n planex_%{name}-%{version}/%{name}
+%setup -q 
 
 %install
 rm -rf %{buildroot}
