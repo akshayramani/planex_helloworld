@@ -1,20 +1,24 @@
-Name:	 helloworld	
-Version: 0.1	
-Release: 1
-Summary: An example helloworld package for planex	
-Group:	 Applications/Systems	
-License: GPL
-Source0: https://github.com/akshayramani/planex_helloworld/archive/v%{version}.tar.gz	
+Name:		helloworld
+Version:	0.1
+Release:	1
+Summary:	Hello world for spec file
+
+Group:		Development/Other	
+License:	BSD3
+URL:		http://github.com/akshayramani/planex_helloworld
+Source0:	git://github.com/akshayramani/planex_helloworld
 
 
 %description
-Simple package for planex
+A hello world spec file
 
 %prep
-%setup -q 
+%setup -q
+
 
 %install
 rm -rf %{buildroot}
+find . | cpio -pdmv %{buildroot}
 
 
 %clean
@@ -27,5 +31,4 @@ rm -rf %{buildroot}
 
 
 %changelog
-* Fri March 04 2014 Akshay Ramani <akshay.ramani@citrix.com>
-- Initial package 
+
