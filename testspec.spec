@@ -18,7 +18,6 @@ Example spec file for dummy package
 
 %install
 rm -rf %{buildroot}
-echo "Install"
 
 %clean
 rm -rf %{buildroot}
