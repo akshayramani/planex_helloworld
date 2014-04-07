@@ -1,6 +1,6 @@
 Name:		testspec		
 Version:	0.1
-Release:	1%{?dist}
+Release:	1
 Summary:	Example planex spec file
 
 Group:		Development/Other
