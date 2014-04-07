@@ -15,6 +15,8 @@ Example spec file for dummy package
 %prep
 %setup -q
 
+%build
+make
 
 %install
 rm -rf %{buildroot}
