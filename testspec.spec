@@ -18,7 +18,7 @@ Example spec file for dummy package
 
 %install
 rm -rf %{buildroot}
-find . | cpio -pdmv %{buildroot}
+echo "Install"
 
 %clean
 rm -rf %{buildroot}
