@@ -27,7 +27,7 @@ rm -rf %{buildroot}
 
 
 %files
-/usr/share/helloworld
+/usr/share/helloworld/helloworld
 
 
 
