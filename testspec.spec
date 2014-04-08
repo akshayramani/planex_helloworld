@@ -1,4 +1,4 @@
-Name:		testspec		
+Name:		helloworld
 Version:	0.1
 Release:	1
 Summary:	Example planex spec file
