@@ -13,7 +13,7 @@ Source0:	https://github.com/akshayramani/planex_helloworld/archive/v%{version}.t
 Example spec file for dummy package
 
 %prep
-%setup -q -n planex_%{name}-%{version}/%{name}
+%setup -q -n planex_%{name}-%{version}
 
 %build
 make
