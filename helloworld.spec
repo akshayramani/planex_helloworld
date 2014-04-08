@@ -19,7 +19,8 @@ Example spec file for dummy package
 make
 
 %install
-rm -rf %{buildroot}
+export DESTDIR=%{buildroot}/
+make install
 
 %clean
 rm -rf %{buildroot}
