@@ -27,7 +27,6 @@ rm -rf %{buildroot}
 
 
 %files
-%defattr(-,root,root,-)
 helloworld
 
 
